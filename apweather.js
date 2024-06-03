@@ -11,7 +11,6 @@ input.addEventListener("keypress", (event) => {
     fetch(`${idapp.url}${contury}&appid=${idapp.appid}`)
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         showData(data);
       })
       .catch((error) => {
