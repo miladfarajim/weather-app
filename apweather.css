@@ -4,14 +4,14 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(0, 94, 122);
+  background-color: #064469;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 h2 {
   text-align: center;
-  margin: 30px;
+  margin: 20px;
   color: rgba(255, 255, 255, 0.836);
 }
 .container {
@@ -19,7 +19,7 @@ h2 {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   text-align: center;
-  background-color: rgb(14, 14, 13);
+  background-color: #064469;
   width: 275px;
   height: 300px;
   opacity: 90%;
@@ -49,9 +49,10 @@ h2 {
 .container input {
   outline: none;
   border: none;
-  margin-top: 25px;
+  margin-top: 30px;
   width: 200px;
   height: 36px;
   border-radius: 10px;
   text-align: center;
+  /* background-color: #9ccddb; */
 }
